@@ -1,0 +1,37 @@
+root:
+  id: "x_axis"
+  model: "machine/x_axis.stl"
+  type: "table"
+  position: [319,398,-244,0,0,0]
+  orign: [0,0,0]
+  color: [0.6, 0.4, 0.4]  # Muted Red
+  axis: null
+  joint: null
+  child_frame:
+    id: "frame"
+    model: "machine/frame.stl"
+    type: "linear"
+    position: [-760,-122,-294,0,0,0]
+    orign: [0,0,0]
+    color: [0.6, 0.6, 0.6] #Muted Gray
+    opacity: 0.8
+    axis: "x"
+    joint: 0
+    child_y_axis:
+      id: "y_axis"
+      model: "machine/y_axis.stl"
+      type: "linear"
+      position: [-140,0,21,0,0,0]
+      orign: [0,0,0]
+      color: [0.5, 0.6, 0.5]  # Muted Green
+      axis: "y"
+      joint: 1
+      child_z_axis:
+        id: "z_axis"
+        model: "machine/z_axis.stl"
+        type: "linear"
+        position: [0,0,0,0,0,0]
+        orign: [0,0,0]
+        color: [0.4, 0.5, 0.6]  # Muted Blue
+        axis: "z"
+        joint: 2

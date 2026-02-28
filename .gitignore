@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pickle
+*.var.bak
+*.log
+halshow.preferences
+autosave.halscope

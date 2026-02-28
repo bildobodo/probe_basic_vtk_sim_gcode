@@ -1,0 +1,10 @@
+probe_fast_fr: 300.0
+probe_slow_fr: 50.0
+surface_scan_depthz: 24.0
+surface_scan_safez: 20.0
+surface_scan_x0: 10.0
+surface_scan_x1: 200.0
+surface_scan_xprobes: 9.0
+surface_scan_y0: 10.0
+surface_scan_y1: 200.0
+surface_scan_yprobes: 8.0

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>simulation</class>
+ <widget class="QWidget" name="simulation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1645</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1645</width>
+    <height>619</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>USER MAIN</string>
+  </property>
+  <property name="sidebar" stdset="0">
+   <bool>false</bool>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QFrame" name="vtkContainer">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_10">
+       <item>
+        <widget class="QGroupBox" name="grpStock">
+         <property name="title">
+          <string>Stock</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item>
+           <widget class="QWidget" name="stockContainer" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_8">
+             <item>
+              <layout class="QFormLayout" name="formLayout">
+               <property name="horizontalSpacing">
+                <number>6</number>
+               </property>
+               <property name="verticalSpacing">
+                <number>6</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label">
+                 <property name="text">
+                  <string>Stock Size X</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QDoubleSpinBox" name="spStockSizeX">
+                 <property name="minimum">
+                  <double>-9999.000000000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>9999.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>5.000000000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>300.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_2">
+                 <property name="text">
+                  <string>Stock Size Y</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QDoubleSpinBox" name="spStockSizeY">
+                 <property name="minimum">
+                  <double>-9999.000000000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>9999.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>5.000000000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>200.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_3">
+                 <property name="text">
+                  <string>Stock Size Z</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QDoubleSpinBox" name="spStockSizeZ">
+                 <property name="minimum">
+                  <double>-9999.000000000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>9999.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>5.000000000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>20.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QLabel" name="label_4">
+                 <property name="text">
+                  <string>Stock Offset X</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QDoubleSpinBox" name="spStockOffsetX">
+                 <property name="minimum">
+                  <double>-9999.000000000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>9999.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>5.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string>Stock Offset Y</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QDoubleSpinBox" name="spStockOffsetY">
+                 <property name="minimum">
+                  <double>-9999.000000000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>9999.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>5.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="label_6">
+                 <property name="text">
+                  <string>Stock Offset Z</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QDoubleSpinBox" name="spStockOffsetZ">
+                 <property name="minimum">
+                  <double>-9999.000000000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>9999.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>5.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Projection</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QRadioButton" name="rbtnPerspective">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>Perspective</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="rbtnParallel">
+            <property name="text">
+             <string>Orthogonal</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Tracking</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QRadioButton" name="rbtnTrackNone">
+            <property name="text">
+             <string>None</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="rbtnTrackTool">
+            <property name="text">
+             <string>Tool</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="rbtnTrackWork">
+            <property name="text">
+             <string>Work</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="grpModelGroups">
+         <property name="title">
+          <string>Show / Hide</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QWidget" name="groupsContainer" native="true">
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_2">
+               <item>
+                <widget class="QCheckBox" name="ckShowHud">
+                 <property name="text">
+                  <string>HUD</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>View</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <item>
+           <widget class="QPushButton" name="btnYZ">
+            <property name="text">
+             <string>Front / Back</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnXZ">
+            <property name="text">
+             <string>Left / Right</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnXY">
+            <property name="text">
+             <string>Top / Bottom</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnDimetric">
+            <property name="text">
+             <string>Dimetric</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Model Controls</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <widget class="QPushButton" name="btnShowAll">
+            <property name="text">
+             <string>Center Model</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnClearBackplot">
+            <property name="text">
+             <string>Clear Backplot</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnZUp">
+            <property name="text">
+             <string>Z Upright</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
