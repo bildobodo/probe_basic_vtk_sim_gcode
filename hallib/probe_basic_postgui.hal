@@ -1,7 +1,6 @@
 loadrt time
 loadrt not
 loadusr -Wn compensation python3 user_tabs/surfacemap/compensation.py probe-results.txt cubic
-#loadusr -W /home/cnc/linuxcnc/configs/probe_basic_vtk_sim_gcode/machine.py
 
 addf time.0 servo-thread
 addf not.0 servo-thread
